@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Final Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+    <script src="./js/main.js" defer></script>
+    <script src="./js/dateTime.js" defer></script>
+</head>
+<body>
+    <div id="dateTime">
+        <p id="date">12/31/9999</p>
+        <p id="dayOfWeek"></p>
+        <p id="time">00:00:00</p>
+    </div>
+
+    <div id="title">
+        <h1 id="titleText">Spooky Answers From The Beyond</h1>
+    </div>
+
+    <div id="popupcontainer">
+        <button id='popup'>Click here to ask a question!</button>
+    </div>
+    <div id="questionFieldContainer">
+        <div id="questionField">
+            <form action="">
+                <br><br>
+                <label for="askInput" id = 'askLabel'>Ask a question to find out what the spoOoOoOoky beyond thinks:</label>
+                <br>
+                <input type="text" name = 'askInput' placeholder = "Question..." id='askInput'>
+                <br><br>
+                <button id='getAnswerButton' disabled>Ask!</button>
+            </form>
+            <br>
+            <div id='answer'></div>
+        </div>
+    </div>
+
+</body>
+</html>
